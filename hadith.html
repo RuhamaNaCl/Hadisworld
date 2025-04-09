@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hadith Search</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            padding: 20px;
+            background: #ffe4e1;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #ff69b4;
+            text-shadow: 2px 2px #ffb6c1;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            font-size: 18px;
+            border: 2px solid #ffb6c1;
+            border-radius: 20px;
+            background: #fffaf0;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #ff69b4;
+            box-shadow: 0 0 10px #ff69b4;
+        }
+
+        .hadith {
+            background: #fffaf0;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 6px solid #ff69b4;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .hadith:hover {
+            transform: scale(1.02);
+        }
+
+        .arabic {
+            font-size: 24px;
+            direction: rtl;
+            color: #ff69b4;
+            font-weight: bold;
+        }
+
+        .bangla {
+            font-size: 18px;
+            margin-top: 8px;
+            color: #ff7f50;
+        }
+
+        .english {
+            font-size: 16px;
+            margin-top: 6px;
+            color: #6a5acd;
+        }
+
+        .ref {
+            font-size: 14px;
+            margin-top: 5px;
+            color: #778899;
+        }
+
+        #hadith-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌸 Hadith Collection 💝</h1>
+    <input type="text" id="search" placeholder="🔍 Search Bangla, English, Arabic...">
+
+    <div id="hadith-container"></div>
+
+    <script>
+        let hadiths = [];
+
+        async function loadHadiths() {
+            const res = await fetch('hadith.json');
+            hadiths = await res.json();
+            displayHadiths(hadiths);
+        }
+
+        function displayHadiths(data) {
+            const container = document.getElementById('hadith-container');
+            container.innerHTML = '';
+            data.forEach(h => {
+                const div = document.createElement('div');
+                div.className = 'hadith';
+                div.innerHTML = `
+                    <div class="arabic">${h.main}</div>
+                    <div class="bangla">📖 ${h.bn}</div>
+                    <div class="english">📘 ${h.en}</div>
+                    <div class="ref">🔖 ${h.ref}</div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function normalize(text) {
+            return text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+        }
+
+        document.getElementById('search').addEventListener('input', function () {
+            const q = normalize(this.value);
+            const keywords = q.split(/\s+/);
+            const filtered = hadiths.filter(h => {
+                const searchable = normalize(h.bn + ' ' + h.en + ' ' + h.main);
+                return keywords.every(k => searchable.includes(k));
+            });
+            displayHadiths(filtered);
+        });
+
+        loadHadiths();
+    </script>
+
+</body>
+</html>
