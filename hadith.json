@@ -28,46 +28,44 @@
   "main": "فَبَيْنَا أَنَا أَمْشِي إِذْ سَمِعْتُ صَوْتًا مِنَ السَّمَاءِ، فَرَفَعْتُ بَصَرِي قِبَلَ السَّمَاءِ، فَإِذَا الْمَلَكُ الَّذِي جَاءَنِي بِحِرَاءٍ جَالِسٌ عَلَى كُرْسِيٍّ بَيْنَ السَّمَاءِ وَالْأَرْضِ",
   "ref": "Sahih al-Bukhari 4",
   "book": "Sahih al-Bukhari"
-},
-  
+},  
 {
   "id": 5,
   "bn": "ইবনে আব্বাস (রাঃ) বলেন, রাসূলুল্লাহ (সাঃ) ছিলেন সবচেয়ে দয়ালু ব্যক্তি। আর রমযান মাসে তিনি সবচেয়ে দয়ালু হতেন যখন জিবরাইল (আঃ) তাঁর সাথে দেখা করতেন। তিনি প্রতি রাতে রাসূল (সাঃ)-এর সাথে সাক্ষাৎ করতেন এবং কুরআন শিখাতেন।",
   "en": "Narrated Ibn Abbas: Allah’s Messenger was the most generous of all the people, and he used to reach the peak in generosity in the month of Ramadan when Jibril met him. Jibril used to meet him every night of Ramadan to teach him the Quran.",
   "main": "كَانَ رَسُولُ اللَّهِ ﷺ أَجْوَدَ النَّاسِ، وَكَانَ أَجْوَدَ مَا يَكُونُ فِي رَمَضَانَ، حِينَ يَلْقَاهُ جِبْرِيلُ، وَكَانَ جِبْرِيلُ يَلْقَاهُ فِي كُلِّ لَيْلَةٍ مِنْ رَمَضَانَ فَيُدَارِسُهُ الْقُرْآنَ",
   "ref": "Sahih al-Bukhari 5",
-  "book": "Sahih al-Bukhari"
+  "book": "Sahih al-Bukhari"  
 },
-
-  {
-    "id": 6,
-    "bn": "আবদুল্লাহ ইবনে আব্বাস (রাঃ) বলেন, আবু সুফিয়ান আমাকে জানালেন যে, হিরাকল (বাইজেন্টাইন সম্রাট) তাঁকে ডেকে পাঠিয়েছিলেন যখন তিনি কুরাইশের একটি কাফেলার সঙ্গে ছিলেন।",
+  {   
+  "id": 6,
+    "bn": "আবদুল্লাহ ইবনে আব্বাস (রাঃ) বলেন, আবু সুফিয়ান আমাকে জানালেন যে, হিরাকল (বাইজেন্টাইন সম্রাট) তাঁকে ডেকে পাঠিয়েছিলেন যখন তিনি কুরাইশের একটি কাফেলার সঙ্গে ছিলেন।",
     "en": "Narrated Abdullah bin Abbas: Abu Sufyan bin Harb informed me that Heraclius had sent a messenger to him while he had been accompanying a caravan from Quraish...",
-    "main": "",
+    "main": "أخبرني أبو سفيان بن حرب أن هرقل أرسل إليه وهو في ركب من قريش...",
     "ref": "Sahih al-Bukhari 6",
     "book": "Sahih al-Bukhari"
   },
   {
     "id": 7,
-    "bn": "আল-বারা বিন আযিব (রাঃ) বলেন, সর্বপ্রথম যারা আমাদের কাছে (মদিনায়) আসেন তারা ছিলেন মুসআব ইবনে উমাইর এবং ইবনে উম্মে মাকতুম, যারা আমাদের কুরআন শেখাতেন।",
+    "bn": "আল-বারা বিন আযিব (রাঃ) বলেন, সর্বপ্রথম যারা আমাদের কাছে (মদিনায়) আসেন তারা ছিলেন মুসআব ইবনে উমাইর এবং ইবনে উম্মে মাকতুম, যারা আমাদের কুরআন শেখাতেন।",
     "en": "Narrated Al-Bara bin Azib: The first people who came to us (in Medina) were Musab bin Umair and Ibn Umm Maktum who taught us the Quran...",
-    "main": "",
+    "main": "أول من قدم علينا من المهاجرين مصعب بن عمير وابن أم مكتوم وكانا يقرئاننا القرآن...",
     "ref": "Sahih al-Bukhari 7",
     "book": "Sahih al-Bukhari"
   },
   {
     "id": 8,
-    "bn": "আনাস ইবনে মালিক (রাঃ) বলেন, রাসূল (সাঃ) বলেছেন: তিনটি গুণ যার মধ্যে থাকবে সে ঈমানের স্বাদ পাবে—যে ব্যক্তি আল্লাহ ও তাঁর রাসূলকে সবকিছুর চেয়ে বেশি ভালোবাসে, যে কাউকে শুধুমাত্র আল্লাহর সন্তুষ্টির জন্য ভালোবাসে, এবং যে কুফরিতে ফিরে যেতে ঘৃণা করে যেমন সে আগুনে নিক্ষিপ্ত হওয়াকে ঘৃণা করে।",
+    "bn": "আনাস ইবনে মালিক (রাঃ) বলেন, রাসূল (সাঃ) বলেছেন: তিনটি গুণ যার মধ্যে থাকবে সে ঈমানের স্বাদ পাবে—যে ব্যক্তি আল্লাহ ও তাঁর রাসূলকে সবকিছুর চেয়ে বেশি ভালোবাসে, যে কাউকে শুধুমাত্র আল্লাহর সন্তুষ্টির জন্য ভালোবাসে, এবং যে কুফরিতে ফিরে যেতে ঘৃণা করে যেমন সে আগুনে নিক্ষিপ্ত হওয়াকে ঘৃণা করে।",
     "en": "Narrated Anas bin Malik: The Prophet said, 'Whoever possesses the following three qualities will have the sweetness of faith: The one to whom Allah and His Messenger become dearer than anything else, who loves a person and he loves him only for Allah’s sake, and who hates to revert to disbelief as he hates to be thrown into the fire.'",
-    "main": "",
+    "main": "ثلاث من كن فيه وجد حلاوة الإيمان: أن يكون الله ورسوله أحب إليه مما سواهما، وأن يحب المرء لا يحبه إلا لله، وأن يكره أن يعود في الكفر كما يكره أن يقذف في النار.",
     "ref": "Sahih al-Bukhari 8",
     "book": "Sahih al-Bukhari"
   },
   {
     "id": 9,
-    "bn": "আবু হুরায়রা (রাঃ) বলেন, রাসূলুল্লাহ (সাঃ) বলেছেন: ঈমানের (বিশ্বাসের) শাখা ষাটেরও বেশি, আর haya (লজ্জা) হল ঈমানের একটি শাখা।",
+    "bn": "আবু হুরায়রা (রাঃ) বলেন, রাসূলুল্লাহ (সাঃ) বলেছেন: ঈমানের (বিশ্বাসের) শাখা ষাটেরও বেশি, আর haya (লজ্জা) হল ঈমানের একটি শাখা।",
     "en": "Narrated Abu Huraira: The Prophet said, 'Faith (Belief) consists of more than sixty branches (i.e., parts). And Haya (modesty) is a part of faith.'",
-    "main": "",
+    "main": "الإيمان بضع وستون شعبة، والحياء شعبة من الإيمان.",
     "ref": "Sahih al-Bukhari 9",
     "book": "Sahih al-Bukhari"
   },
@@ -75,7 +73,7 @@
     "id": 10,
     "bn": "আবদুল্লাহ ইবনে আমর (রাঃ) বলেন, রাসূলুল্লাহ (সাঃ) বলেছেন: একজন প্রকৃত মুসলিম সে, যার হাত ও জিহ্বা থেকে অন্য মুসলমান নিরাপদ থাকে। আর প্রকৃত মুহাজির সে, যে আল্লাহ যা নিষিদ্ধ করেছেন তা বর্জন করে।",
     "en": "Narrated Abdullah bin Amr: The Prophet said, 'A Muslim is the one who avoids harming Muslims with his tongue and hands. And a Muhajir (emigrant) is the one who gives up (abandons) all that Allah has forbidden.'",
-    "main": "",
+    "main": "المسلم من سلم المسلمون من لسانه ويده، والمهاجر من هجر ما نهى الله عنه.",
     "ref": "Sahih al-Bukhari 10",
     "book": "Sahih al-Bukhari"
   },
@@ -83,7 +81,7 @@
     "id": 11,
     "bn": "আবু মূসা (রাঃ) বলেন, কিছু লোক রাসূল (সাঃ)-কে জিজ্ঞেস করল, ‘সর্বোত্তম ইসলাম কার?’ তিনি বললেন, 'যার হাত ও জিহ্বা থেকে মুসলমানরা নিরাপদ থাকে।’",
     "en": "Narrated Abu Musa: Some people asked Allah’s Messenger, 'Whose Islam is the best?' He replied, 'One who avoids harming the Muslims with his tongue and hands.'",
-    "main": "",
+    "main": "المسلم من سلم المسلمون من لسانه ويده.",
     "ref": "Sahih al-Bukhari 11",
     "book": "Sahih al-Bukhari"
   },
@@ -91,7 +89,7 @@
     "id": 12,
     "bn": "আনাস (রাঃ) বলেন, রাসূল (সাঃ) বলেছেন: ‘তোমাদের কেউ ঈমানদার হতে পারবে না যতক্ষণ না সে তার (মুসলিম) ভাইয়ের জন্য এমন কিছু চায়, যা সে নিজের জন্য চায়।’",
     "en": "Narrated Anas: The Prophet said, 'None of you will have faith till he wishes for his (Muslim) brother what he likes for himself.'",
-    "main": "",
+    "main": "لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه.",
     "ref": "Sahih al-Bukhari 12",
     "book": "Sahih al-Bukhari"
   },
@@ -99,25 +97,7 @@
     "id": 13,
     "bn": "আবু হুরায়রা (রাঃ) বলেন, রাসূল (সাঃ) বলেছেন: 'যাঁর হাতে আমার প্রাণ, তাঁর কসম করে বলছি, তোমাদের কেউ ঈমানদার হতে পারবে না যতক্ষণ না সে আমাকে তার পিতা ও সন্তানদের চেয়েও বেশি ভালোবাসে।’",
     "en": "Narrated Abu Huraira: Allah’s Messenger said, 'By Him in Whose Hands my life is, none of you will have faith till he loves me more than his father and his children.'",
-    "main": "",
-    "ref": "Sahih al-Bukhari 13",
-    "book": "Sahih al-Bukhari"
-  },
-  {
-    "id": 14,
-    "bn": "আনাস (রাঃ) বলেন, রাসূল (সাঃ) বলেছেন: ‘তিনটি গুণ যার মধ্যে থাকবে সে ঈমানের স্বাদ পাবে—আল্লাহ ও তাঁর রাসূলকে সর্বাধিক ভালোবাসা, কাউকে শুধু আল্লাহর জন্য ভালোবাসা, এবং কুফরিতে ফিরে যেতে ঘৃণা করা।’",
-    "en": "Narrated Anas: The Prophet said, 'Whoever possesses the following three qualities will taste the sweetness of faith: [repeats qualities from Hadith 8].'",
-    "main": "",
-    "ref": "Sahih al-Bukhari 14",
-    "book": "Sahih al-Bukhari"
-  },
-  {
-    "id": 15,
-    "bn": "আবু হুরায়রা (রাঃ) বলেন, রাসূল (সাঃ) বলেছেন: 'যে ব্যক্তি আল্লাহ এবং পরকালের ওপর ঈমান রাখে, সে যেন কল্যাণকর কথা বলে অথবা চুপ থাকে। আর সে যেন তার প্রতিবেশীকে কষ্ট না দেয়।'",
-    "en": "Narrated Abu Huraira: The Prophet said, 'Whoever believes in Allah and the Last Day should talk what is good or keep quiet, and whoever believes in Allah and the Last Day should not harm his neighbor...'",
-    "main": "",
-    "ref": "Sahih al-Bukhari 15",
-    "book": "Sahih al-Bukhari"
+    "main": "وال0",
   }
-    
+  
 ]
