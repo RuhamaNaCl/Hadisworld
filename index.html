@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,112 +18,112 @@
       --card-dark: #1e1e1e;
       --shadow-light: rgba(0, 0, 0, 0.05);
       --shadow-dark: rgba(255, 255, 255, 0.05);
-    }* {
-  box-sizing: border-box;
-}
+    }
+    * {
+      box-sizing: border-box;
+    }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--bg-light);
-  color: var(--text-light);
-  margin: 0;
-  padding: 1rem;
-  transition: all 0.3s ease;
-}
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      margin: 0;
+      padding: 1rem;
+      transition: all 0.3s ease;
+    }
 
-body.dark {
-  background-color: var(--bg-dark);
-  color: var(--text-dark);
-}
+    body.dark {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
 
-h1 {
-  text-align: center;
-  font-weight: 700;
-  color: var(--accent);
-  margin-bottom: 1rem;
-}
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
 
-.toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
 
-.toolbar input,
-.toolbar select,
-.toolbar button {
-  padding: 0.6rem 1rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
+    .toolbar input,
+    .toolbar select,
+    .toolbar button {
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
 
-.toolbar button {
-  background: var(--accent);
-  color: white;
-  border: none;
-  cursor: pointer;
-}
+    .toolbar button {
+      background: var(--accent);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
 
-.toolbar button:hover {
-  opacity: 0.9;
-}
+    .toolbar button:hover {
+      opacity: 0.9;
+    }
 
-.hadith-count {
-  text-align: center;
-  margin-bottom: 1rem;
-  color: #6c757d;
-}
+    .hadith-count {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #6c757d;
+    }
 
-.hadith-card {
-  background-color: var(--card-light);
-  padding: 1rem;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 6px var(--shadow-light);
-  transition: background 0.3s ease;
-}
+    .hadith-card {
+      background-color: var(--card-light);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px var(--shadow-light);
+      transition: background 0.3s ease;
+    }
 
-body.dark .hadith-card {
-  background-color: var(--card-dark);
-  box-shadow: 0 2px 6px var(--shadow-dark);
-}
+    body.dark .hadith-card {
+      background-color: var(--card-dark);
+      box-shadow: 0 2px 6px var(--shadow-dark);
+    }
 
-.arabic {
-  font-size: 1.5rem;
-  font-weight: bold;
-  direction: rtl;
-  text-align: right;
-  color: #dc3545;
-}
+    .arabic {
+      font-size: 1.5rem;
+      font-weight: bold;
+      direction: rtl;
+      text-align: right;
+      color: #dc3545;
+    }
 
-.bangla {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  color: #fd7e14;
-}
+    .bangla {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #fd7e14;
+    }
 
-.english {
-  margin-top: 0.5rem;
-  font-size: 0.95rem;
-  color: #0d6efd;
-}
+    .english {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      color: #0d6efd;
+    }
 
-.ref {
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  color: #6c757d;
-}
+    .ref {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: #6c757d;
+    }
 
-@media (max-width: 600px) {
-  .toolbar {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-
+    @media (max-width: 600px) {
+      .toolbar {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
   </style>
 </head>
 <body>
@@ -134,13 +135,16 @@ body.dark .hadith-card {
     </select>
     <button onclick="toggleDarkMode()">Dark Mode</button>
     <button onclick="showRandomHadith()">Random Hadith</button>
-  </div>  <div class="hadith-count" id="hadith-count"></div>
-  <div id="hadith-container"></div>  <script>
+  </div>
+  <div class="hadith-count" id="hadith-count"></div>
+  <div id="hadith-container"></div>
+
+  <script>
     let hadiths = [];
 
     async function loadHadiths() {
       try {
-        const res = await fetch('hadith_1_to_15.json');
+        const res = await fetch('hadith.json');
         hadiths = await res.json();
         populateBooks(hadiths);
         displayHadiths(hadiths);
@@ -210,8 +214,6 @@ body.dark .hadith-card {
     document.getElementById('book-filter').addEventListener('change', filter);
 
     loadHadiths();
-  </script></body>
-    </html>
-
-
-
+  </script>
+</body>
+  </html>
